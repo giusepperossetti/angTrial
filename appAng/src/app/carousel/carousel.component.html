@@ -1,23 +1,30 @@
-<ngb-carousel *ngIf="images">
-    <ng-template ngbSlide>
-        <img [src]="images[0]" alt="Random first slide">
-        <div class="carousel-caption">
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+<div class="col-xs-12">
+    <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+            <img [src]="images[0]" alt="Random first slide">
+            <div class="carousel-caption" style="bottom: 370px;">
+                <h1>First slide label</h1>
+                <h3>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3>
+                <a href="http://google.com" target="_blank">
+                    <button class="btn btn-primary">Clicca qui!</button>
+                </a>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+        <img [src]="images[1]" alt="Random second slide">
+        <div class="carousel-caption" style="bottom: 370px;">
+            <h1>Second slide label</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <a href="http://google.com" target="_blank"><button class="btn btn-primary">Clicca qui!</button></a>
         </div>
-    </ng-template>
-    <ng-template ngbSlide>
-    <img [src]="images[1]" alt="Random second slide">
-    <div class="carousel-caption">
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    </ng-template>
-    <ng-template ngbSlide>
-    <img [src]="images[2]" alt="Random third slide">
-    <div class="carousel-caption">
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </div>
-    </ng-template>
-</ngb-carousel>
+        </ng-template>
+        <ng-template ngbSlide>
+        <img [src]="images[2]" alt="Random third slide">
+        <div class="carousel-caption" style="bottom: 370px;">
+            <h1>Third slide label</h1>
+            <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
+            <a href="http://google.com" target="_blank"><button class="btn btn-primary">Clicca qui!</button></a>
+        </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
