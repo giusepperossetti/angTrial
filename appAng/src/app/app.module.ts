@@ -12,9 +12,9 @@ import { NgbdDropdownBasic } from './dropdown/dropdown.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NgbdCarouselBasic,
-    NavbarComponent,
-    NgbdDropdownBasic
+    NgbdCarouselBasic, // Slide Template Component
+    NavbarComponent, // Navbar
+    NgbdDropdownBasic // Dropdown menu in navbar
   ],
   imports: [
     BrowserModule,
