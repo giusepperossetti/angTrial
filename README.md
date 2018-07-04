@@ -19,3 +19,4 @@ ng serve
 ### 04/07/2018
 
 Learnt WTF is the concept of routing. Click on Videogames link in the navbar to see the _blank link.
+Try to make slider disappear when changing route.
