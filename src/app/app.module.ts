@@ -17,6 +17,7 @@ import { AppComponent } from './app.component';
 import { NgbdCarouselBasic } from './carousel/carousel.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgbdDropdownBasic } from './dropdown/dropdown.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { NgbdDropdownBasic } from './dropdown/dropdown.component';
     routingComponents,
     NgbdCarouselBasic, // Slide Template Component
     NavbarComponent, // Navbar
-    NgbdDropdownBasic  // Dropdown menu in navbar
+    NgbdDropdownBasic, // Dropdown menu in navbar
+    ContactComponent  
   ],
   imports: [
     BrowserModule,
