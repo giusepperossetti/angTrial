@@ -4,8 +4,8 @@ import { VideogameListComponent } from './videogame-list/videogame-list.componen
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-    {path: 'videogames', component: VideogameListComponent},
-    {path: 'contact', component: ContactComponent}
+    {path: 'videogames', component: VideogameListComponent, pathMatch: 'full'},
+    {path: 'contact', component: ContactComponent, pathMatch: 'full'}
 ];
 
 @NgModule({
@@ -13,4 +13,4 @@ const routes: Routes = [
     exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [VideogameListComponent]
+export const routingComponents = [VideogameListComponent, ContactComponent]
