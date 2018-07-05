@@ -2,7 +2,7 @@
 
 Made this with Ng Bootstrap
 
-### Installation
+## Installation
 
 Install node nodules with:
 
@@ -16,7 +16,11 @@ Then start development environment (frontend and backend) with:
 ng serve
 ```
 
-### 04/07/2018
+## 04/07/2018
 
 Learnt WTF is the concept of routing. Click on Videogames link in the navbar to see the _blank link.
 Try to make slider disappear when changing route.
+
+## 05/07/2018
+
+Routing works properly. Navbar present in every component I'm routing in the app. 

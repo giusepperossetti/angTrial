@@ -25,7 +25,7 @@ import { NgbdDropdownBasic } from './dropdown/dropdown.component';
     routingComponents,
     NgbdCarouselBasic, // Slide Template Component
     NavbarComponent, // Navbar
-    NgbdDropdownBasic // Dropdown menu in navbar 
+    NgbdDropdownBasic // Dropdown menu in navbar
   ],
   imports: [
     BrowserModule,
