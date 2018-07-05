@@ -18,6 +18,15 @@ import { NgbdCarouselBasic } from './carousel/carousel.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgbdDropdownBasic } from './dropdown/dropdown.component';
 
+// Imports Angular Material and Animations modules
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -29,6 +38,12 @@ import { NgbdDropdownBasic } from './dropdown/dropdown.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatCardModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatIconModule,
     FormsModule,
     AppRoutingModule,
     HttpClientModule,

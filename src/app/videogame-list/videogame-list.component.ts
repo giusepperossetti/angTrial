@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-videogame-list',
   templateUrl: './videogame-list.component.html',
-  styles: []
+  styleUrls: ['./videogame-list.component.css']
 })
 export class VideogameListComponent implements OnInit {
 
